@@ -1,5 +1,3 @@
-# GitHub Repository:
-# git add  .
 # git commit -m "Initial commit"
 # git push origin main
 
@@ -12,6 +10,7 @@ st.title("Blinkit Price predictor")
 
 name = st.text_input("product name:")
 weight = st.text_input("weight:")
+
 rating = st.text_input("rating:",1,5)
 category = st.selectbox(
     "category:",
